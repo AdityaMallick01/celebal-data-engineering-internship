@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Output files
+output/*.csv
+output/*.xlsx
+
+# Virtual environments
+venv/
+.env
