@@ -14,10 +14,6 @@ High Value   -> total_amount >= 5000
 Medium Value -> total_amount between 2000 and 4999
 Low Value    -> total_amount < 2000
 ==========================================================
-
-Explanation:
-- CASE is used for conditional logic.
-- Each order is categorized based on its total amount.
 */
 
 SELECT
