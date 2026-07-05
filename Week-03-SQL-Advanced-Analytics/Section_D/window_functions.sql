@@ -24,7 +24,7 @@ WITH customer_sales AS
 )
 
 SELECT
-    ROW_NUMBER() OVER (ORDER BY total_sales DESC) AS row_number,
+    ROW_NUMBER() OVER (ORDER BY total_sales DESC) AS rn,
     `Customer ID`,
     `Customer Name`,
     total_sales
@@ -34,7 +34,7 @@ FROM customer_sales;
 Explanation:
 
 - ROW_NUMBER() assigns a unique sequential number.
-- No two customers receive the same row number.
+- Every customer receives a unique row number.
 */
 
 
@@ -56,7 +56,7 @@ WITH customer_sales AS
 )
 
 SELECT
-    RANK() OVER (ORDER BY total_sales DESC) AS customer_rank,
+    RANK() OVER (ORDER BY total_sales DESC) AS rnk,
     `Customer ID`,
     `Customer Name`,
     total_sales
@@ -89,7 +89,7 @@ WITH customer_sales AS
 )
 
 SELECT
-    DENSE_RANK() OVER (ORDER BY total_sales DESC) AS dense_rank,
+    DENSE_RANK() OVER (ORDER BY total_sales DESC) AS drnk,
     `Customer ID`,
     `Customer Name`,
     total_sales
@@ -137,9 +137,8 @@ WHERE row_num = 1;
 /*
 Explanation:
 
-- PARTITION BY groups records customer-wise.
-- ROW_NUMBER() identifies the highest sales order
-  for each customer.
+- PARTITION BY creates a separate ranking for each customer.
+- ROW_NUMBER() identifies the highest sales order for every customer.
 */
 
 
@@ -165,12 +164,13 @@ SELECT
     `Customer ID`,
     `Customer Name`,
     total_sales,
-    RANK() OVER (ORDER BY total_sales DESC) AS sales_rank
+    RANK() OVER (ORDER BY total_sales DESC) AS rnk
 FROM customer_sales;
 
 /*
 Explanation:
 
-- Combines a CTE with the RANK() window function.
-- Produces customer sales rankings from highest to lowest.
+- Combines a Common Table Expression (CTE) with the
+  RANK() window function.
+- Displays customer sales rankings from highest to lowest.
 */
