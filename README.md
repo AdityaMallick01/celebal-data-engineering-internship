@@ -9,7 +9,7 @@ The repository is organized week-wise and includes:
 - Weekly assignments
 - SQL projects
 - Data exploration and analysis
-- Data engineering projects
+- Azure cloud and data engineering projects
 - Documentation and reports
 
 ---
@@ -35,6 +35,8 @@ celebal-data-engineering-internship/
 │   └── Assignment-02-Superstore-Analysis/
 │
 ├── Week-03-SQL-Advanced-Analytics/
+│
+├── Week-04-Azure-Cloud-and-ADF/
 │
 └── README.md
 ```
@@ -86,8 +88,24 @@ celebal-data-engineering-internship/
 - Common Table Expressions (CTEs)
 - Window Functions (`ROW_NUMBER`, `RANK`, `DENSE_RANK`)
 - Customer sales ranking
-- Customer Sales Insights mini-project
+- Customer sales insights mini-project
 - Business analysis using JOIN + CTE + Window Functions
+
+---
+
+### Week 4 – Azure Cloud Fundamentals and Azure Data Factory (ADF)
+
+- Azure Resource Group creation
+- Azure Storage Account and Blob Container setup
+- Uploading the Superstore dataset to Azure Blob Storage
+- Azure Data Factory (ADF) creation and configuration
+- Linked Service creation for Blob Storage
+- Source and Destination Dataset configuration
+- File validation using **Get Metadata**
+- End-to-end data movement using **Copy Data** activity
+- Pipeline execution using **Debug** and monitoring
+- Azure IAM role assignment for secure resource access
+- Blob → ADF → Blob data pipeline implementation
 
 ---
 
@@ -98,6 +116,11 @@ celebal-data-engineering-internship/
 - NumPy
 - MySQL
 - SQL
+- Azure Cloud
+- Azure Storage Account
+- Azure Blob Storage
+- Azure Data Factory (ADF)
+- Azure IAM (RBAC)
 - MySQL Workbench
 - Jupyter Notebook
 - Visual Studio Code
