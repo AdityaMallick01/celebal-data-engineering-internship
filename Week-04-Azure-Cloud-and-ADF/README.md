@@ -1,46 +1,47 @@
-# Week 4: Azure Cloud Fundamentals and Data Pipeline Implementation using Azure Data Factory (ADF)
+# Week 4: Azure Cloud Fundamentals and Data Pipeline Implementation Using Azure Data Factory (ADF)
 
 ## 📌 Project Overview
 
 The objective of this week's assignment was to understand Azure cloud fundamentals and build an end-to-end data pipeline using Azure Storage Account and Azure Data Factory (ADF).
 
-The project demonstrates how Azure Data Factory can securely connect to Azure Blob Storage, validate source files using the **Get Metadata** activity, and copy data from a source blob to a destination blob using the **Copy Data** activity.
+The project demonstrates how Azure Data Factory connects to Azure Blob Storage using a Linked Service, validates the source file using the **Get Metadata** activity, and copies data from a source blob to a destination blob using the **Copy Data** activity.
 
 ---
 
-# 🏗️ Architecture
+## 🏗️ Architecture
 
 ```text
-Sample - Superstore.csv
-         │
-         ▼
-Azure Blob Storage (Source)
-         │
-         ▼
-Azure Data Factory (ADF)
-         │
- ┌───────┴────────┐
- │                │
- ▼                ▼
-Get Metadata   Copy Data
- │                │
- └───────┬────────┘
-         │
-         ▼
-Copied-Superstore.csv
+             Sample - Superstore.csv
+                     │
+                     ▼
+      Azure Blob Storage (Source)
+                     │
+                     ▼
+        Azure Data Factory (ADF)
+                     │
+          ┌──────────┴──────────┐
+          │                     │
+          ▼                     ▼
+    Get Metadata          Copy Data
+          │                     │
+          └──────────┬──────────┘
+                     │
+                     ▼
+     Copied-Superstore.csv
 Azure Blob Storage (Destination)
 ```
 
 ---
 
-# ☁️ Azure Services Used
+## ☁️ Azure Services Used
 
 - Azure Resource Group
 - Azure Storage Account
-- Azure Blob Container
+- Azure Blob Storage
 - Azure Data Factory (V2)
 - Linked Service
-- Source & Destination Datasets
+- Source Dataset
+- Destination Dataset
 - Get Metadata Activity
 - Copy Data Activity
 - Azure IAM (RBAC)
@@ -49,9 +50,11 @@ Azure Blob Storage (Destination)
 
 # 🚀 Implementation Steps
 
-## Step 1: Resource Group
+## Step 1: Create Resource Group
 
-A Resource Group was created to organize all Azure resources used in this project.
+A Resource Group was created to organize all Azure resources required for this project.
+
+**Configuration**
 
 - **Resource Group:** `celebal-rg`
 - **Region:** Central India
@@ -60,13 +63,17 @@ A Resource Group was created to organize all Azure resources used in this projec
 
 ---
 
-## Step 2: Storage Account & Blob Container
+## Step 2: Create Storage Account and Blob Container
 
-An Azure Storage Account was created to store the source dataset.
+An Azure Storage Account was created to store the dataset.
+
+A Blob Container named **superstore-data** was created, and the **Sample - Superstore.csv** dataset was uploaded.
+
+**Configuration**
 
 - **Storage Account:** `celebalstorage82715`
 - **Container:** `superstore-data`
-- **Dataset:** `Sample - Superstore.csv`
+- **Source File:** `Sample - Superstore.csv`
 
 ### Storage Account
 
@@ -78,46 +85,48 @@ An Azure Storage Account was created to store the source dataset.
 
 ---
 
-## Step 3: Azure Data Factory
+## Step 3: Create Azure Data Factory
 
-An Azure Data Factory instance was created to orchestrate the data movement process.
+An Azure Data Factory (ADF) instance was created to orchestrate the complete data pipeline.
+
+**Configuration**
 
 - **ADF Name:** `celebal-adf82715`
 
-### Azure Data Factory
+### Azure Data Factory Overview
 
 ![ADF Overview](./screenshots/04-adf-overview.png)
 
-### ADF Studio
+### Azure Data Factory Studio
 
 ![ADF Studio](./screenshots/05-adf-studio.png)
 
 ---
 
-## Step 4: Linked Service & Datasets
+## Step 4: Configure Linked Service and Datasets
 
-A Linked Service was configured to connect Azure Data Factory with Azure Blob Storage.
+A **Linked Service** was created to establish a secure connection between Azure Data Factory and Azure Blob Storage.
 
-Two datasets were created:
+Two datasets were configured:
 
-- **DS_Source**
-- **DS_Destination**
+- **DS_Source** – Points to the source CSV file.
+- **DS_Destination** – Points to the destination CSV file where copied data will be stored.
 
 ### Linked Service
 
 ![Linked Service](./screenshots/06-linked-service.png)
 
-### Datasets
+### Source and Destination Datasets
 
 ![Datasets](./screenshots/07-datasets.png)
 
 ---
 
-## Step 5: Get Metadata Activity
+## Step 5: Configure Get Metadata Activity
 
-The **Get Metadata** activity was configured to validate the source file before copying.
+The **Get Metadata** activity was added to the pipeline to validate the source file before copying.
 
-The following metadata fields were retrieved:
+The following metadata properties were retrieved:
 
 - Exists
 - Size
@@ -127,12 +136,12 @@ The following metadata fields were retrieved:
 
 ---
 
-## Step 6: Pipeline Development
+## Step 6: Build the Data Pipeline
 
-A pipeline was developed using two activities:
+A pipeline was created using two Azure Data Factory activities:
 
-- Get Metadata
-- Copy Data
+1. **Get Metadata**
+2. **Copy Data**
 
 Pipeline Flow:
 
@@ -143,66 +152,101 @@ Get Metadata
 Copy Data
 ```
 
+The Get Metadata activity validates the source file before the Copy Data activity transfers it to the destination location.
+
 ![Pipeline Design](./screenshots/09-pipeline-design.png)
 
 ---
 
-## Step 7: Pipeline Execution
+## Step 7: Execute and Monitor the Pipeline
 
-The pipeline was executed successfully using the **Debug** option in Azure Data Factory.
+The pipeline was executed using the **Debug** option in Azure Data Factory.
 
-Pipeline Status:
+Execution Status:
 
-- **Succeeded**
+- ✅ Succeeded
+
+The execution was monitored through the Azure Data Factory Monitor section.
 
 ![Pipeline Success](./screenshots/10-pipeline-success.png)
 
 ---
 
-## Step 8: Output Verification
+## Step 8: Verify Output
 
-After successful execution, the destination file was created in Azure Blob Storage.
+After successful execution, the destination file was created successfully inside the Blob Storage destination location.
 
 ![Output Blob](./screenshots/11-output-blob.png)
 
 ---
 
-## Step 9: Identity and Access Management (IAM)
+## Step 9: Configure Identity and Access Management (IAM)
 
-Azure Role-Based Access Control (RBAC) was configured to allow Azure Data Factory to access the Storage Account.
+Azure Role-Based Access Control (RBAC) was configured to provide Azure Data Factory with the required permissions to access Azure Storage.
 
 Assigned Roles:
 
 - Reader
 - Storage Blob Data Contributor
 
+These roles allow Azure Data Factory to securely read and write data without exposing storage account credentials.
+
 ![IAM Roles](./screenshots/12-iam-roles.png)
+
+---
+
+# 🏆 Mini Project
+
+An end-to-end Azure Data Factory pipeline was implemented to automate data movement between Azure Blob Storage locations.
+
+### Workflow
+
+```text
+Azure Blob Storage (Source)
+          │
+          ▼
+    Get Metadata
+          │
+          ▼
+      Copy Data
+          │
+          ▼
+Azure Blob Storage (Destination)
+```
+
+### Outcome
+
+- Source CSV validated using Get Metadata.
+- Data copied successfully to the destination Blob Storage.
+- Pipeline executed successfully.
+- Azure IAM roles configured for secure resource access.
 
 ---
 
 # 📊 Project Outcome
 
-Successfully implemented an end-to-end Azure data pipeline that:
+Successfully implemented an end-to-end Azure cloud data pipeline that:
 
 - Created Azure cloud resources.
-- Stored data in Azure Blob Storage.
-- Connected Azure Data Factory with Blob Storage.
-- Retrieved file metadata.
-- Copied data from source to destination.
-- Executed and monitored the pipeline successfully.
-- Configured IAM roles for secure access.
+- Configured Azure Storage Account and Blob Container.
+- Uploaded the Superstore dataset.
+- Connected Azure Data Factory to Blob Storage.
+- Retrieved file metadata before processing.
+- Copied data from the source blob to the destination blob.
+- Successfully executed and monitored the pipeline.
+- Configured Azure IAM roles for secure access.
 
 ---
 
 # 📚 Key Learnings
 
-- Understanding Azure Resource Groups and Storage Accounts.
+- Understanding Azure Resource Groups.
+- Creating and managing Azure Storage Accounts.
 - Working with Azure Blob Storage.
-- Creating Linked Services and Datasets.
-- Building pipelines using Azure Data Factory.
-- Using Get Metadata and Copy Data activities.
-- Monitoring pipeline execution.
-- Implementing secure access using Azure IAM.
+- Creating Linked Services and Datasets in Azure Data Factory.
+- Building data pipelines using Get Metadata and Copy Data activities.
+- Executing and monitoring Azure Data Factory pipelines.
+- Implementing secure access using Azure IAM (RBAC).
 
 ---
 
@@ -229,10 +273,22 @@ Week-04-Azure-Cloud-and-ADF/
 
 ---
 
-## ✅ Technologies Used
+## 🛠️ Technologies Used
 
 - Microsoft Azure
+- Azure Resource Group
 - Azure Storage Account
 - Azure Blob Storage
 - Azure Data Factory (ADF)
 - Azure IAM (RBAC)
+- Git
+- GitHub
+- Visual Studio Code
+
+---
+
+## 👨‍💻 Author
+
+**Aditya Mallick**
+
+Celebal Technologies Data Engineering Internship (CEI 2026)
