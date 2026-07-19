@@ -213,15 +213,3 @@ notebook/Spark_Data_Processing.ipynb
 4. The processed dataset will be generated inside the `output` directory.
 
 ---
-
-## ✅ Assignment Status
-
-- ✔ Spark Theory Questions
-- ✔ Data Cleaning
-- ✔ Data Transformation
-- ✔ Filtering
-- ✔ Aggregation
-- ✔ GroupBy Analysis
-- ✔ Wide Transformation
-- ✔ Complete Spark Pipeline
-- ✔ CSV Export
