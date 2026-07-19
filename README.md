@@ -10,6 +10,7 @@ The repository is organized week-wise and includes:
 - SQL projects
 - Data exploration and analysis
 - Azure cloud and data engineering projects
+- Apache Spark data processing projects
 - Documentation and reports
 
 ---
@@ -37,6 +38,8 @@ celebal-data-engineering-internship/
 ├── Week-03-SQL-Advanced-Analytics/
 │
 ├── Week-04-Azure-Cloud-and-ADF/
+│
+├── Week-05-Spark-Data-Processing/
 │
 └── README.md
 ```
@@ -109,6 +112,22 @@ celebal-data-engineering-internship/
 
 ---
 
+### Week 5 – Apache Spark Data Processing
+
+- Apache Spark fundamentals
+- SparkSession creation and DataFrame operations
+- Data loading and exploration using PySpark
+- Data cleaning (duplicates and missing values)
+- Data transformation and schema modification
+- Filtering and conditional queries
+- Aggregation functions and statistical analysis
+- GroupBy operations
+- Wide transformations and shuffle concepts
+- End-to-end Spark data processing pipeline
+- Exporting processed data to CSV
+
+---
+
 ## Technologies Used
 
 - Python
@@ -116,6 +135,8 @@ celebal-data-engineering-internship/
 - NumPy
 - MySQL
 - SQL
+- Apache Spark (PySpark)
+- Hadoop
 - Azure Cloud
 - Azure Storage Account
 - Azure Blob Storage
