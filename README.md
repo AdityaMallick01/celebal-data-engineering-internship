@@ -41,6 +41,8 @@ celebal-data-engineering-internship/
 │
 ├── Week-05-Spark-Data-Processing/
 │
+├── Week-06-Spark-Fundamentals/
+│
 └── README.md
 ```
 
@@ -112,19 +114,39 @@ celebal-data-engineering-internship/
 
 ---
 
-### Week 5 – Apache Spark Data Processing
+### Week 5 – Spark Data Processing
 
-- Apache Spark fundamentals
-- SparkSession creation and DataFrame operations
-- Data loading and exploration using PySpark
-- Data cleaning (duplicates and missing values)
-- Data transformation and schema modification
-- Filtering and conditional queries
-- Aggregation functions and statistical analysis
-- GroupBy operations
-- Wide transformations and shuffle concepts
-- End-to-end Spark data processing pipeline
+- Apache Spark environment setup
+- SparkSession creation
+- Reading CSV datasets
+- Data exploration and schema inspection
+- Data cleaning and preprocessing
+- Filtering and transformations
+- Aggregations and GroupBy operations
+- Statistical analysis using PySpark
+- Data processing workflow
 - Exporting processed data to CSV
+
+---
+
+### Week 6 – Apache Spark Fundamentals
+
+- Apache Spark Architecture (Driver, Cluster Manager, Executors)
+- Lazy Evaluation and Directed Acyclic Graph (DAG)
+- Reading CSV files with schema inference
+- DataFrame transformations and filtering
+- Column selection and renaming
+- Data type casting
+- Creating calculated columns
+- Handling null values
+- Transformations vs Actions
+- Narrow and Wide Transformations
+- Shuffle operations
+- Predicate Pushdown optimization
+- CSV vs Parquet comparison
+- Building a simple ETL pipeline
+- Writing processed data to CSV and Parquet
+- Spark performance best practices
 
 ---
 
@@ -133,11 +155,12 @@ celebal-data-engineering-internship/
 - Python
 - Pandas
 - NumPy
-- MySQL
 - SQL
+- MySQL
 - Apache Spark (PySpark)
 - Hadoop
 - Azure Cloud
+- Azure Resource Groups
 - Azure Storage Account
 - Azure Blob Storage
 - Azure Data Factory (ADF)
@@ -153,4 +176,4 @@ celebal-data-engineering-internship/
 
 **Aditya Mallick**
 
-Celebal Technologies Data Engineering Internship (CEI 2026)
+**Celebal Technologies Data Engineering Internship (CEI 2026)**
