@@ -150,6 +150,25 @@ celebal-data-engineering-internship/
 
 ---
 
+### Week 7 – Delta Lake MERGE Operations
+
+- Reading CSV data using Apache Spark
+- Schema inference and validation
+- Data cleaning and preprocessing
+- Null value analysis
+- Duplicate record validation
+- Standardizing column names
+- Creating Delta Lake tables
+- Writing DataFrames in Delta format
+- Preparing incremental datasets
+- Performing UPSERT operations using `MERGE`
+- Updating existing records
+- Inserting new records
+- Validating merged data
+- Delta Lake data verification and summary reporting
+
+---
+
 ## Technologies Used
 
 - Python
@@ -158,6 +177,7 @@ celebal-data-engineering-internship/
 - SQL
 - MySQL
 - Apache Spark (PySpark)
+- Delta Lake
 - Hadoop
 - Azure Cloud
 - Azure Resource Groups
@@ -165,12 +185,12 @@ celebal-data-engineering-internship/
 - Azure Blob Storage
 - Azure Data Factory (ADF)
 - Azure IAM (RBAC)
+- Databricks
 - MySQL Workbench
 - Jupyter Notebook
 - Visual Studio Code
 - Git & GitHub
 
----
 
 ## Author
 
