@@ -1,0 +1,29 @@
+Week 8 Data Quality Report
+==============================
+
+Orders:
+  Total rows: 2288
+  Missing customer IDs: 106
+  Wrong-format dates corrected: 105
+  Example corrected rows: [{'order_id': 'O000017', 'from': '23-04-2026', 'to': '2026-04-23 00:00:00'}, {'order_id': 'O000075', 'from': '11-10-2024', 'to': '2024-10-11 00:00:00'}, {'order_id': 'O000086', 'from': '20-09-2025', 'to': '2025-09-20 00:00:00'}, {'order_id': 'O000097', 'from': '20-01-2026', 'to': '2026-01-20 00:00:00'}, {'order_id': 'O000162', 'from': '01-04-2026', 'to': '2026-04-01 00:00:00'}]
+
+Order Items:
+  Total rows: 6696
+  Negative quantity rows (raw): 173
+  Zero quantity rows: 0
+  Referential integrity issues: 0
+  Discount issues: 0
+
+Products:
+  Total rows: 600
+  Product names normalized: 93
+  Example normalized rows: [{'product_id': 'P0005', 'from': 'WIRELESS MOUSE MINI', 'to': 'Wireless Mouse Mini'}, {'product_id': 'P0011', 'from': ' mechanical keyboard ', 'to': 'Mechanical Keyboard'}, {'product_id': 'P0012', 'from': 'MECHANICAL KEYBOARD PRO', 'to': 'Mechanical Keyboard Pro'}, {'product_id': 'P0017', 'from': 'MECHANICAL KEYBOARD EDGE', 'to': 'Mechanical Keyboard Edge'}, {'product_id': 'P0020', 'from': 'mECHANICAL kEYBOARD uLTRA', 'to': 'Mechanical Keyboard Ultra'}]
+
+Customers:
+  Total rows: 600
+  Invalid emails: 12
+  Invalid customer IDs: ['C0005', 'C0039', 'C0091', 'C0133', 'C0205', 'C0393', 'C0414', 'C0440', 'C0445', 'C0489']
+
+Extra validation checks:
+  Future orders detected in raw data: 0
+  Zero quantity rows detected in raw data: 0

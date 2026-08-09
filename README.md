@@ -43,6 +43,10 @@ celebal-data-engineering-internship/
 │
 ├── Week-06-Spark-Fundamentals/
 │
+├── Week-07-Delta-Lake-Merge/
+│
+├── Week-08-ECommerce-Order-Analytics/
+│
 └── README.md
 ```
 
@@ -166,6 +170,16 @@ celebal-data-engineering-internship/
 - Inserting new records
 - Validating merged data
 - Delta Lake data verification and summary reporting
+
+---
+
+### Week 8 – E-Commerce Order Analytics System
+
+- Python data generation with intentional issues
+- Data cleaning, validation, and quality reporting
+- SQLite database loading
+- 16 SQL analytics queries
+- CLI reporting and edge-case testing
 
 ---
 

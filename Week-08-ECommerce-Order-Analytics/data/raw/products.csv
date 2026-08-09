@@ -1,0 +1,601 @@
+product_id,product_name,category,subcategory,cost_price
+P0001,Wireless Mouse,Electronics,Accessories,199.40
+P0002,Wireless Mouse Pro,Electronics,Accessories,255.59
+P0003,Wireless Mouse Plus,Electronics,Accessories,43.12
+P0004,Wireless Mouse Max,Electronics,Accessories,85.91
+P0005,WIRELESS MOUSE MINI,Electronics,Accessories,105.22
+P0006,Wireless Mouse Prime,Electronics,Accessories,54.65
+P0007,Wireless Mouse Edge,Electronics,Accessories,137.58
+P0008,Wireless Mouse Flex,Electronics,Accessories,152.93
+P0009,Wireless Mouse Lite,Electronics,Accessories,189.53
+P0010,Wireless Mouse Ultra,Electronics,Accessories,165.04
+P0011, mechanical keyboard ,Electronics,Accessories,217.70
+P0012,MECHANICAL KEYBOARD PRO,Electronics,Accessories,265.03
+P0013,Mechanical Keyboard Plus,Electronics,Accessories,215.63
+P0014,Mechanical Keyboard Max,Electronics,Accessories,179.07
+P0015,Mechanical Keyboard Mini,Electronics,Accessories,175.21
+P0016,Mechanical Keyboard Prime,Electronics,Accessories,52.06
+P0017,MECHANICAL KEYBOARD EDGE,Electronics,Accessories,45.85
+P0018,Mechanical Keyboard Flex,Electronics,Accessories,91.87
+P0019,Mechanical Keyboard Lite,Electronics,Accessories,81.24
+P0020,mECHANICAL kEYBOARD uLTRA,Electronics,Accessories,49.93
+P0021,Bluetooth Speaker,Electronics,Audio,192.66
+P0022,Bluetooth Speaker Pro,Electronics,Audio,251.93
+P0023,Bluetooth Speaker Plus,Electronics,Audio,119.09
+P0024,Bluetooth Speaker Max,Electronics,Audio,172.03
+P0025,Bluetooth Speaker Mini,Electronics,Audio,222.09
+P0026,bLUETOOTH sPEAKER pRIME,Electronics,Audio,128.13
+P0027,Bluetooth Speaker Edge,Electronics,Audio,189.85
+P0028, bluetooth speaker flex ,Electronics,Audio,87.76
+P0029,Bluetooth Speaker Lite,Electronics,Audio,59.85
+P0030,Bluetooth Speaker Ultra,Electronics,Audio,170.11
+P0031,Noise Cancelling Headphones,Electronics,Audio,51.89
+P0032,Noise Cancelling Headphones Pro,Electronics,Audio,256.11
+P0033,Noise Cancelling Headphones Plus,Electronics,Audio,264.44
+P0034,Noise Cancelling Headphones Max,Electronics,Audio,231.68
+P0035,Noise Cancelling Headphones Mini,Electronics,Audio,116.05
+P0036,Noise Cancelling Headphones Prime,Electronics,Audio,137.28
+P0037, noise cancelling headphones edge ,Electronics,Audio,235.32
+P0038,Noise Cancelling Headphones Flex,Electronics,Audio,180.62
+P0039,Noise Cancelling Headphones Lite,Electronics,Audio,236.27
+P0040,Noise Cancelling Headphones Ultra,Electronics,Audio,114.76
+P0041,USB-C HUB,Electronics,Computing,112.11
+P0042,USB-C Hub Pro,Electronics,Computing,241.52
+P0043, usb-c hub plus ,Electronics,Computing,152.50
+P0044,USB-C Hub Max,Electronics,Computing,198.44
+P0045,USB-C Hub Mini,Electronics,Computing,224.98
+P0046,USB-C Hub Prime,Electronics,Computing,159.55
+P0047,USB-C Hub Edge,Electronics,Computing,172.55
+P0048,USB-C Hub Flex,Electronics,Computing,172.56
+P0049,USB-C Hub Lite,Electronics,Computing,232.99
+P0050,USB-C Hub Ultra,Electronics,Computing,249.79
+P0051,Laptop Stand,Electronics,Computing,234.71
+P0052,Laptop Stand Pro,Electronics,Computing,67.00
+P0053,Laptop Stand Plus,Electronics,Computing,172.70
+P0054,Laptop Stand Max,Electronics,Computing,85.40
+P0055,Laptop Stand Mini,Electronics,Computing,231.46
+P0056,Laptop Stand Prime,Electronics,Computing,206.83
+P0057,Laptop Stand Edge,Electronics,Computing,198.50
+P0058,Laptop Stand Flex,Electronics,Computing,184.33
+P0059,Laptop Stand Lite,Electronics,Computing,68.45
+P0060,Laptop Stand Ultra,Electronics,Computing,252.58
+P0061,Portable Charger,Electronics,Accessories,148.75
+P0062,Portable Charger Pro,Electronics,Accessories,154.03
+P0063,Portable Charger Plus,Electronics,Accessories,118.09
+P0064,Portable Charger Max,Electronics,Accessories,149.06
+P0065,Portable Charger Mini,Electronics,Accessories,120.19
+P0066,Portable Charger Prime,Electronics,Accessories,66.07
+P0067,Portable Charger Edge,Electronics,Accessories,54.80
+P0068,Portable Charger Flex,Electronics,Accessories,106.11
+P0069,PORTABLE CHARGER LITE,Electronics,Accessories,202.68
+P0070,Portable Charger Ultra,Electronics,Accessories,179.89
+P0071,Smart Watch,Electronics,Wearables,251.71
+P0072,Smart Watch Pro,Electronics,Wearables,251.08
+P0073,Smart Watch Plus,Electronics,Wearables,148.81
+P0074,Smart Watch Max,Electronics,Wearables,218.73
+P0075,Smart Watch Mini,Electronics,Wearables,109.69
+P0076,Smart Watch Prime,Electronics,Wearables,189.04
+P0077,SMART WATCH EDGE,Electronics,Wearables,136.82
+P0078,Smart Watch Flex,Electronics,Wearables,114.91
+P0079,Smart Watch Lite,Electronics,Wearables,214.98
+P0080,Smart Watch Ultra,Electronics,Wearables,125.36
+P0081,Webcam,Electronics,Computing,145.79
+P0082,Webcam Pro,Electronics,Computing,214.65
+P0083,Webcam Plus,Electronics,Computing,85.62
+P0084,Webcam Max,Electronics,Computing,83.51
+P0085,Webcam Mini,Electronics,Computing,77.88
+P0086,Webcam Prime,Electronics,Computing,210.34
+P0087,Webcam Edge,Electronics,Computing,186.23
+P0088,Webcam Flex,Electronics,Computing,137.91
+P0089,Webcam Lite,Electronics,Computing,148.44
+P0090,Webcam Ultra,Electronics,Computing,55.44
+P0091,Gaming Monitor,Electronics,Display,132.38
+P0092,Gaming Monitor Pro,Electronics,Display,263.38
+P0093,Gaming Monitor Plus,Electronics,Display,198.31
+P0094,Gaming Monitor Max,Electronics,Display,58.30
+P0095,Gaming Monitor Mini,Electronics,Display,171.39
+P0096,Gaming Monitor Prime,Electronics,Display,246.10
+P0097,Gaming Monitor Edge,Electronics,Display,190.82
+P0098,Gaming Monitor Flex,Electronics,Display,124.52
+P0099,Gaming Monitor Lite,Electronics,Display,101.19
+P0100,Gaming Monitor Ultra,Electronics,Display,82.74
+P0101,External SSD,Electronics,Storage,150.27
+P0102,External SSD Pro,Electronics,Storage,168.85
+P0103,External SSD Plus,Electronics,Storage,168.12
+P0104,External SSD Max,Electronics,Storage,195.74
+P0105,External SSD Mini,Electronics,Storage,242.27
+P0106,External SSD Prime,Electronics,Storage,262.15
+P0107,External SSD Edge,Electronics,Storage,178.30
+P0108,External SSD Flex,Electronics,Storage,206.17
+P0109,External SSD Lite,Electronics,Storage,166.13
+P0110,External SSD Ultra,Electronics,Storage,212.94
+P0111,Router,Electronics,Networking,155.13
+P0112,ROUTER PRO,Electronics,Networking,134.31
+P0113,Router Plus,Electronics,Networking,57.35
+P0114,Router Max,Electronics,Networking,256.29
+P0115,Router Mini,Electronics,Networking,67.95
+P0116,Router Prime,Electronics,Networking,96.26
+P0117,Router Edge,Electronics,Networking,136.83
+P0118,Router Flex,Electronics,Networking,186.99
+P0119,Router Lite,Electronics,Networking,85.47
+P0120,Router Ultra,Electronics,Networking,137.23
+P0121,Tablet Cover,Electronics,Accessories,191.63
+P0122,Tablet Cover Pro,Electronics,Accessories,57.58
+P0123,Tablet Cover Plus,Electronics,Accessories,230.72
+P0124,Tablet Cover Max,Electronics,Accessories,47.11
+P0125,Tablet Cover Mini,Electronics,Accessories,80.69
+P0126,Tablet Cover Prime,Electronics,Accessories,241.90
+P0127,Tablet Cover Edge,Electronics,Accessories,177.60
+P0128,Tablet Cover Flex,Electronics,Accessories,117.74
+P0129,Tablet Cover Lite,Electronics,Accessories,201.15
+P0130,Tablet Cover Ultra,Electronics,Accessories,206.17
+P0131,Microphone,Electronics,Audio,256.28
+P0132, microphone pro ,Electronics,Audio,206.90
+P0133,Microphone Plus,Electronics,Audio,101.83
+P0134,Microphone Max,Electronics,Audio,36.27
+P0135,Microphone Mini,Electronics,Audio,245.94
+P0136,Microphone Prime,Electronics,Audio,189.55
+P0137,Microphone Edge,Electronics,Audio,224.71
+P0138,Microphone Flex,Electronics,Audio,212.73
+P0139,Microphone Lite,Electronics,Audio,51.40
+P0140,Microphone Ultra,Electronics,Audio,177.31
+P0141,DOCKING STATION,Electronics,Computing,211.91
+P0142,Docking Station Pro,Electronics,Computing,136.17
+P0143,Docking Station Plus,Electronics,Computing,119.66
+P0144,Docking Station Max,Electronics,Computing,174.11
+P0145,Docking Station Mini,Electronics,Computing,161.30
+P0146,Docking Station Prime,Electronics,Computing,187.50
+P0147,Docking Station Edge,Electronics,Computing,89.08
+P0148,Docking Station Flex,Electronics,Computing,241.69
+P0149,Docking Station Lite,Electronics,Computing,43.97
+P0150, docking station ultra ,Electronics,Computing,141.53
+P0151,cOTTON t-sHIRT,Clothing,Men,72.09
+P0152,Cotton T-Shirt Pro,Clothing,Men,69.37
+P0153,Cotton T-Shirt Plus,Clothing,Men,54.28
+P0154,Cotton T-Shirt Max,Clothing,Men,18.83
+P0155,Cotton T-Shirt Mini,Clothing,Men,76.19
+P0156,Cotton T-Shirt Prime,Clothing,Men,72.47
+P0157,Cotton T-Shirt Edge,Clothing,Men,29.69
+P0158,Cotton T-Shirt Flex,Clothing,Men,81.36
+P0159,Cotton T-Shirt Lite,Clothing,Men,80.79
+P0160,Cotton T-Shirt Ultra,Clothing,Men,86.67
+P0161,Denim Jeans,Clothing,Men,17.99
+P0162, denim jeans pro ,Clothing,Men,33.02
+P0163,Denim Jeans Plus,Clothing,Men,36.06
+P0164,Denim Jeans Max,Clothing,Men,87.61
+P0165,Denim Jeans Mini,Clothing,Men,49.44
+P0166, denim jeans prime ,Clothing,Men,50.44
+P0167,Denim Jeans Edge,Clothing,Men,71.78
+P0168,Denim Jeans Flex,Clothing,Men,15.78
+P0169,Denim Jeans Lite,Clothing,Men,41.69
+P0170,Denim Jeans Ultra,Clothing,Men,54.46
+P0171,Hooded Sweatshirt,Clothing,Unisex,35.37
+P0172, hooded sweatshirt pro ,Clothing,Unisex,64.92
+P0173,Hooded Sweatshirt Plus,Clothing,Unisex,49.93
+P0174,Hooded Sweatshirt Max,Clothing,Unisex,82.51
+P0175,Hooded Sweatshirt Mini,Clothing,Unisex,64.63
+P0176,Hooded Sweatshirt Prime,Clothing,Unisex,109.89
+P0177,Hooded Sweatshirt Edge,Clothing,Unisex,65.78
+P0178,Hooded Sweatshirt Flex,Clothing,Unisex,12.93
+P0179,HOODED SWEATSHIRT LITE,Clothing,Unisex,23.73
+P0180,Hooded Sweatshirt Ultra,Clothing,Unisex,63.23
+P0181,Running Shoes,Clothing,Footwear,73.54
+P0182,Running Shoes Pro,Clothing,Footwear,52.59
+P0183,Running Shoes Plus,Clothing,Footwear,31.68
+P0184,Running Shoes Max,Clothing,Footwear,32.98
+P0185,Running Shoes Mini,Clothing,Footwear,59.09
+P0186,Running Shoes Prime,Clothing,Footwear,109.71
+P0187,Running Shoes Edge,Clothing,Footwear,18.07
+P0188,Running Shoes Flex,Clothing,Footwear,32.81
+P0189,Running Shoes Lite,Clothing,Footwear,60.19
+P0190,Running Shoes Ultra,Clothing,Footwear,59.74
+P0191, formal shirt ,Clothing,Men,35.67
+P0192,Formal Shirt Pro,Clothing,Men,63.23
+P0193,Formal Shirt Plus,Clothing,Men,76.76
+P0194,Formal Shirt Max,Clothing,Men,79.04
+P0195,Formal Shirt Mini,Clothing,Men,26.00
+P0196,Formal Shirt Prime,Clothing,Men,96.17
+P0197,Formal Shirt Edge,Clothing,Men,34.96
+P0198,Formal Shirt Flex,Clothing,Men,68.41
+P0199,Formal Shirt Lite,Clothing,Men,51.84
+P0200,FORMAL SHIRT ULTRA,Clothing,Men,90.54
+P0201,Summer Dress,Clothing,Women,35.29
+P0202,Summer Dress Pro,Clothing,Women,94.11
+P0203,Summer Dress Plus,Clothing,Women,83.29
+P0204,Summer Dress Max,Clothing,Women,82.52
+P0205,Summer Dress Mini,Clothing,Women,79.45
+P0206, summer dress prime ,Clothing,Women,84.31
+P0207,Summer Dress Edge,Clothing,Women,86.20
+P0208,sUMMER dRESS fLEX,Clothing,Women,66.27
+P0209,Summer Dress Lite,Clothing,Women,60.94
+P0210,SUMMER DRESS ULTRA,Clothing,Women,37.63
+P0211,Sports Socks,Clothing,Accessories,31.83
+P0212,Sports Socks Pro,Clothing,Accessories,111.86
+P0213,Sports Socks Plus,Clothing,Accessories,30.99
+P0214,Sports Socks Max,Clothing,Accessories,58.96
+P0215,Sports Socks Mini,Clothing,Accessories,24.13
+P0216,Sports Socks Prime,Clothing,Accessories,94.80
+P0217,Sports Socks Edge,Clothing,Accessories,31.24
+P0218,Sports Socks Flex,Clothing,Accessories,31.42
+P0219,Sports Socks Lite,Clothing,Accessories,54.98
+P0220,Sports Socks Ultra,Clothing,Accessories,67.49
+P0221,Leather Belt,Clothing,Accessories,15.31
+P0222,Leather Belt Pro,Clothing,Accessories,44.91
+P0223,Leather Belt Plus,Clothing,Accessories,54.28
+P0224,Leather Belt Max,Clothing,Accessories,59.32
+P0225,Leather Belt Mini,Clothing,Accessories,43.42
+P0226,Leather Belt Prime,Clothing,Accessories,92.18
+P0227,Leather Belt Edge,Clothing,Accessories,92.73
+P0228,Leather Belt Flex,Clothing,Accessories,45.68
+P0229,Leather Belt Lite,Clothing,Accessories,40.64
+P0230,Leather Belt Ultra,Clothing,Accessories,89.78
+P0231,Rain Jacket,Clothing,Outerwear,48.51
+P0232, rain jacket pro ,Clothing,Outerwear,64.61
+P0233,Rain Jacket Plus,Clothing,Outerwear,83.13
+P0234,Rain Jacket Max,Clothing,Outerwear,46.41
+P0235,Rain Jacket Mini,Clothing,Outerwear,21.41
+P0236,Rain Jacket Prime,Clothing,Outerwear,68.17
+P0237,Rain Jacket Edge,Clothing,Outerwear,46.10
+P0238,Rain Jacket Flex,Clothing,Outerwear,22.61
+P0239,Rain Jacket Lite,Clothing,Outerwear,23.18
+P0240,Rain Jacket Ultra,Clothing,Outerwear,93.02
+P0241,Polo Shirt,Clothing,Men,54.88
+P0242,Polo Shirt Pro,Clothing,Men,109.84
+P0243,Polo Shirt Plus,Clothing,Men,93.67
+P0244,Polo Shirt Max,Clothing,Men,29.98
+P0245,Polo Shirt Mini,Clothing,Men,51.13
+P0246,pOLO sHIRT pRIME,Clothing,Men,42.84
+P0247,Polo Shirt Edge,Clothing,Men,63.73
+P0248,Polo Shirt Flex,Clothing,Men,25.92
+P0249,Polo Shirt Lite,Clothing,Men,88.56
+P0250, polo shirt ultra ,Clothing,Men,29.65
+P0251,Winter Cap,Clothing,Accessories,55.39
+P0252,Winter Cap Pro,Clothing,Accessories,90.16
+P0253,Winter Cap Plus,Clothing,Accessories,49.66
+P0254,Winter Cap Max,Clothing,Accessories,84.85
+P0255,wINTER cAP mINI,Clothing,Accessories,74.45
+P0256,Winter Cap Prime,Clothing,Accessories,60.79
+P0257,Winter Cap Edge,Clothing,Accessories,68.32
+P0258,Winter Cap Flex,Clothing,Accessories,46.92
+P0259,Winter Cap Lite,Clothing,Accessories,69.90
+P0260,Winter Cap Ultra,Clothing,Accessories,104.01
+P0261,Casual Jacket,Clothing,Outerwear,41.09
+P0262,Casual Jacket Pro,Clothing,Outerwear,108.93
+P0263,Casual Jacket Plus,Clothing,Outerwear,56.66
+P0264,cASUAL jACKET mAX,Clothing,Outerwear,87.54
+P0265,Casual Jacket Mini,Clothing,Outerwear,33.40
+P0266,Casual Jacket Prime,Clothing,Outerwear,27.56
+P0267,Casual Jacket Edge,Clothing,Outerwear,43.13
+P0268,Casual Jacket Flex,Clothing,Outerwear,78.76
+P0269,Casual Jacket Lite,Clothing,Outerwear,20.85
+P0270,Casual Jacket Ultra,Clothing,Outerwear,70.08
+P0271,Sneakers,Clothing,Footwear,58.87
+P0272,Sneakers Pro,Clothing,Footwear,106.67
+P0273,SNEAKERS PLUS,Clothing,Footwear,73.53
+P0274,Sneakers Max,Clothing,Footwear,94.05
+P0275,Sneakers Mini,Clothing,Footwear,76.26
+P0276, sneakers prime ,Clothing,Footwear,45.60
+P0277,Sneakers Edge,Clothing,Footwear,77.00
+P0278,Sneakers Flex,Clothing,Footwear,20.32
+P0279,Sneakers Lite,Clothing,Footwear,77.24
+P0280,sNEAKERS uLTRA,Clothing,Footwear,81.34
+P0281,Formal Trousers,Clothing,Men,78.76
+P0282, formal trousers pro ,Clothing,Men,67.76
+P0283,Formal Trousers Plus,Clothing,Men,59.57
+P0284,Formal Trousers Max,Clothing,Men,89.25
+P0285,Formal Trousers Mini,Clothing,Men,66.46
+P0286,Formal Trousers Prime,Clothing,Men,97.18
+P0287,Formal Trousers Edge,Clothing,Men,26.55
+P0288,Formal Trousers Flex,Clothing,Men,12.89
+P0289,Formal Trousers Lite,Clothing,Men,89.25
+P0290,Formal Trousers Ultra,Clothing,Men,48.62
+P0291,Active Shorts,Clothing,Sportswear,69.97
+P0292,Active Shorts Pro,Clothing,Sportswear,79.49
+P0293,Active Shorts Plus,Clothing,Sportswear,98.80
+P0294,Active Shorts Max,Clothing,Sportswear,45.15
+P0295,Active Shorts Mini,Clothing,Sportswear,45.65
+P0296,Active Shorts Prime,Clothing,Sportswear,32.06
+P0297,Active Shorts Edge,Clothing,Sportswear,57.62
+P0298,Active Shorts Flex,Clothing,Sportswear,58.41
+P0299,Active Shorts Lite,Clothing,Sportswear,40.84
+P0300,Active Shorts Ultra,Clothing,Sportswear,55.00
+P0301, coffee maker ,Home,Kitchen,99.60
+P0302,Coffee Maker Pro,Home,Kitchen,135.99
+P0303,Coffee Maker Plus,Home,Kitchen,93.13
+P0304,Coffee Maker Max,Home,Kitchen,70.05
+P0305,Coffee Maker Mini,Home,Kitchen,178.26
+P0306,Coffee Maker Prime,Home,Kitchen,119.36
+P0307,Coffee Maker Edge,Home,Kitchen,67.14
+P0308,Coffee Maker Flex,Home,Kitchen,174.67
+P0309,Coffee Maker Lite,Home,Kitchen,199.10
+P0310,Coffee Maker Ultra,Home,Kitchen,124.77
+P0311,Ceramic Mug Set,Home,Kitchen,177.31
+P0312,Ceramic Mug Set Pro,Home,Kitchen,180.44
+P0313,Ceramic Mug Set Plus,Home,Kitchen,104.58
+P0314,Ceramic Mug Set Max,Home,Kitchen,71.20
+P0315,Ceramic Mug Set Mini,Home,Kitchen,98.58
+P0316, ceramic mug set prime ,Home,Kitchen,102.73
+P0317,Ceramic Mug Set Edge,Home,Kitchen,62.15
+P0318,Ceramic Mug Set Flex,Home,Kitchen,54.92
+P0319,Ceramic Mug Set Lite,Home,Kitchen,205.91
+P0320,Ceramic Mug Set Ultra,Home,Kitchen,175.83
+P0321,Desk Lamp,Home,Decor,71.61
+P0322,Desk Lamp Pro,Home,Decor,208.22
+P0323,Desk Lamp Plus,Home,Decor,181.87
+P0324,Desk Lamp Max,Home,Decor,117.52
+P0325,Desk Lamp Mini,Home,Decor,211.51
+P0326,Desk Lamp Prime,Home,Decor,103.60
+P0327,Desk Lamp Edge,Home,Decor,195.96
+P0328,Desk Lamp Flex,Home,Decor,73.50
+P0329,Desk Lamp Lite,Home,Decor,172.38
+P0330,DESK LAMP ULTRA,Home,Decor,118.12
+P0331,sTORAGE bASKET,Home,Organization,207.81
+P0332,STORAGE BASKET PRO,Home,Organization,188.33
+P0333,Storage Basket Plus,Home,Organization,37.86
+P0334,Storage Basket Max,Home,Organization,38.35
+P0335,Storage Basket Mini,Home,Organization,192.09
+P0336,Storage Basket Prime,Home,Organization,80.76
+P0337,Storage Basket Edge,Home,Organization,87.31
+P0338,Storage Basket Flex,Home,Organization,103.64
+P0339,Storage Basket Lite,Home,Organization,169.94
+P0340,Storage Basket Ultra,Home,Organization,112.39
+P0341,Air Fryer,Home,Kitchen,215.81
+P0342,Air Fryer Pro,Home,Kitchen,201.61
+P0343,Air Fryer Plus,Home,Kitchen,152.16
+P0344,Air Fryer Max,Home,Kitchen,179.61
+P0345,AIR FRYER MINI,Home,Kitchen,113.54
+P0346,Air Fryer Prime,Home,Kitchen,215.68
+P0347,Air Fryer Edge,Home,Kitchen,81.78
+P0348,Air Fryer Flex,Home,Kitchen,68.70
+P0349, air fryer lite ,Home,Kitchen,27.64
+P0350,Air Fryer Ultra,Home,Kitchen,70.86
+P0351,Vacuum Cleaner,Home,Cleaning,37.45
+P0352,Vacuum Cleaner Pro,Home,Cleaning,82.04
+P0353,Vacuum Cleaner Plus,Home,Cleaning,192.85
+P0354,Vacuum Cleaner Max,Home,Cleaning,88.92
+P0355,Vacuum Cleaner Mini,Home,Cleaning,140.33
+P0356,Vacuum Cleaner Prime,Home,Cleaning,164.58
+P0357,Vacuum Cleaner Edge,Home,Cleaning,75.49
+P0358,Vacuum Cleaner Flex,Home,Cleaning,121.11
+P0359,VACUUM CLEANER LITE,Home,Cleaning,108.28
+P0360,Vacuum Cleaner Ultra,Home,Cleaning,233.46
+P0361,Bed Sheet Set,Home,Bedding,205.57
+P0362,Bed Sheet Set Pro,Home,Bedding,154.19
+P0363,Bed Sheet Set Plus,Home,Bedding,45.20
+P0364,Bed Sheet Set Max,Home,Bedding,149.91
+P0365,Bed Sheet Set Mini,Home,Bedding,140.29
+P0366,Bed Sheet Set Prime,Home,Bedding,217.71
+P0367,Bed Sheet Set Edge,Home,Bedding,169.07
+P0368,Bed Sheet Set Flex,Home,Bedding,108.96
+P0369,Bed Sheet Set Lite,Home,Bedding,43.26
+P0370,Bed Sheet Set Ultra,Home,Bedding,88.45
+P0371,Wall Clock,Home,Decor,60.54
+P0372,Wall Clock Pro,Home,Decor,60.97
+P0373,Wall Clock Plus,Home,Decor,49.06
+P0374,WALL CLOCK MAX,Home,Decor,219.19
+P0375,Wall Clock Mini,Home,Decor,206.18
+P0376,Wall Clock Prime,Home,Decor,83.82
+P0377,Wall Clock Edge,Home,Decor,43.54
+P0378,wALL cLOCK fLEX,Home,Decor,52.46
+P0379,Wall Clock Lite,Home,Decor,192.58
+P0380,Wall Clock Ultra,Home,Decor,217.55
+P0381,Cookware Set,Home,Kitchen,45.29
+P0382,Cookware Set Pro,Home,Kitchen,143.35
+P0383,Cookware Set Plus,Home,Kitchen,191.70
+P0384,Cookware Set Max,Home,Kitchen,147.24
+P0385,Cookware Set Mini,Home,Kitchen,201.60
+P0386,Cookware Set Prime,Home,Kitchen,69.76
+P0387, cookware set edge ,Home,Kitchen,101.27
+P0388,Cookware Set Flex,Home,Kitchen,123.71
+P0389,Cookware Set Lite,Home,Kitchen,45.53
+P0390,Cookware Set Ultra,Home,Kitchen,144.53
+P0391,Pillow Set,Home,Bedding,170.61
+P0392,Pillow Set Pro,Home,Bedding,193.47
+P0393,Pillow Set Plus,Home,Bedding,194.46
+P0394,Pillow Set Max,Home,Bedding,196.20
+P0395,Pillow Set Mini,Home,Bedding,68.48
+P0396,Pillow Set Prime,Home,Bedding,169.89
+P0397,Pillow Set Edge,Home,Bedding,34.00
+P0398,Pillow Set Flex,Home,Bedding,122.36
+P0399,Pillow Set Lite,Home,Bedding,141.87
+P0400,Pillow Set Ultra,Home,Bedding,90.54
+P0401,Spice Rack,Home,Kitchen,72.30
+P0402,SPICE RACK PRO,Home,Kitchen,38.70
+P0403,Spice Rack Plus,Home,Kitchen,173.83
+P0404,Spice Rack Max,Home,Kitchen,48.73
+P0405,Spice Rack Mini,Home,Kitchen,22.47
+P0406,Spice Rack Prime,Home,Kitchen,81.62
+P0407, spice rack edge ,Home,Kitchen,19.66
+P0408,Spice Rack Flex,Home,Kitchen,61.87
+P0409,Spice Rack Lite,Home,Kitchen,176.72
+P0410, spice rack ultra ,Home,Kitchen,111.66
+P0411, floor mat ,Home,Decor,169.62
+P0412,Floor Mat Pro,Home,Decor,112.68
+P0413,Floor Mat Plus,Home,Decor,208.18
+P0414,Floor Mat Max,Home,Decor,20.55
+P0415,Floor Mat Mini,Home,Decor,162.37
+P0416,Floor Mat Prime,Home,Decor,224.13
+P0417,Floor Mat Edge,Home,Decor,58.23
+P0418,Floor Mat Flex,Home,Decor,36.98
+P0419,Floor Mat Lite,Home,Decor,60.11
+P0420,Floor Mat Ultra,Home,Decor,235.83
+P0421,Laundry Basket,Home,Organization,168.43
+P0422,Laundry Basket Pro,Home,Organization,56.78
+P0423,Laundry Basket Plus,Home,Organization,95.90
+P0424,Laundry Basket Max,Home,Organization,214.60
+P0425,Laundry Basket Mini,Home,Organization,105.70
+P0426,Laundry Basket Prime,Home,Organization,148.42
+P0427,Laundry Basket Edge,Home,Organization,213.70
+P0428,Laundry Basket Flex,Home,Organization,157.53
+P0429,Laundry Basket Lite,Home,Organization,49.31
+P0430,Laundry Basket Ultra,Home,Organization,82.74
+P0431,Towel Set,Home,Bedding,86.36
+P0432,Towel Set Pro,Home,Bedding,176.69
+P0433,TOWEL SET PLUS,Home,Bedding,64.35
+P0434,Towel Set Max,Home,Bedding,130.79
+P0435,Towel Set Mini,Home,Bedding,88.16
+P0436,Towel Set Prime,Home,Bedding,170.55
+P0437,Towel Set Edge,Home,Bedding,164.33
+P0438,Towel Set Flex,Home,Bedding,25.98
+P0439,Towel Set Lite,Home,Bedding,130.92
+P0440,Towel Set Ultra,Home,Bedding,132.90
+P0441,Storage Shelf,Home,Furniture,83.38
+P0442,Storage Shelf Pro,Home,Furniture,209.84
+P0443,Storage Shelf Plus,Home,Furniture,65.54
+P0444,Storage Shelf Max,Home,Furniture,183.52
+P0445,Storage Shelf Mini,Home,Furniture,109.72
+P0446,Storage Shelf Prime,Home,Furniture,139.61
+P0447,Storage Shelf Edge,Home,Furniture,143.19
+P0448,Storage Shelf Flex,Home,Furniture,143.28
+P0449,Storage Shelf Lite,Home,Furniture,30.80
+P0450,Storage Shelf Ultra,Home,Furniture,191.44
+P0451, mystery novel ,Books,Fiction,51.65
+P0452,MYSTERY NOVEL PRO,Books,Fiction,42.12
+P0453, mystery novel plus ,Books,Fiction,69.20
+P0454,MYSTERY NOVEL MAX,Books,Fiction,18.92
+P0455,Mystery Novel Mini,Books,Fiction,35.92
+P0456,Mystery Novel Prime,Books,Fiction,46.68
+P0457,Mystery Novel Edge,Books,Fiction,48.92
+P0458,Mystery Novel Flex,Books,Fiction,45.38
+P0459,Mystery Novel Lite,Books,Fiction,55.43
+P0460,Mystery Novel Ultra,Books,Fiction,56.00
+P0461,Science Textbook,Books,Education,58.75
+P0462,Science Textbook Pro,Books,Education,58.49
+P0463,Science Textbook Plus,Books,Education,57.57
+P0464,Science Textbook Max,Books,Education,12.44
+P0465, science textbook mini ,Books,Education,37.61
+P0466,Science Textbook Prime,Books,Education,38.02
+P0467,Science Textbook Edge,Books,Education,40.49
+P0468,Science Textbook Flex,Books,Education,39.83
+P0469,Science Textbook Lite,Books,Education,50.53
+P0470,Science Textbook Ultra,Books,Education,59.02
+P0471,Recipe Book,Books,Non-Fiction,32.34
+P0472,Recipe Book Pro,Books,Non-Fiction,53.95
+P0473,Recipe Book Plus,Books,Non-Fiction,55.03
+P0474,Recipe Book Max,Books,Non-Fiction,59.44
+P0475,Recipe Book Mini,Books,Non-Fiction,64.82
+P0476,Recipe Book Prime,Books,Non-Fiction,48.80
+P0477,Recipe Book Edge,Books,Non-Fiction,26.44
+P0478,Recipe Book Flex,Books,Non-Fiction,39.10
+P0479,Recipe Book Lite,Books,Non-Fiction,39.36
+P0480,Recipe Book Ultra,Books,Non-Fiction,42.02
+P0481, journal notebook ,Books,Stationery,8.01
+P0482,Journal Notebook Pro,Books,Stationery,15.77
+P0483,Journal Notebook Plus,Books,Stationery,33.04
+P0484,Journal Notebook Max,Books,Stationery,25.95
+P0485,Journal Notebook Mini,Books,Stationery,61.77
+P0486,Journal Notebook Prime,Books,Stationery,75.13
+P0487,JOURNAL NOTEBOOK EDGE,Books,Stationery,40.58
+P0488,Journal Notebook Flex,Books,Stationery,23.10
+P0489,Journal Notebook Lite,Books,Stationery,22.24
+P0490,Journal Notebook Ultra,Books,Stationery,41.10
+P0491, history guide ,Books,Education,20.39
+P0492,History Guide Pro,Books,Education,49.75
+P0493,HISTORY GUIDE PLUS,Books,Education,69.27
+P0494,History Guide Max,Books,Education,54.08
+P0495,History Guide Mini,Books,Education,52.47
+P0496,History Guide Prime,Books,Education,49.54
+P0497,History Guide Edge,Books,Education,61.02
+P0498,History Guide Flex,Books,Education,50.62
+P0499,History Guide Lite,Books,Education,60.93
+P0500,History Guide Ultra,Books,Education,49.18
+P0501,Language Workbook,Books,Education,26.20
+P0502,Language Workbook Pro,Books,Education,45.28
+P0503,Language Workbook Plus,Books,Education,89.24
+P0504,lANGUAGE wORKBOOK mAX,Books,Education,40.79
+P0505,Language Workbook Mini,Books,Education,16.44
+P0506,Language Workbook Prime,Books,Education,54.77
+P0507,Language Workbook Edge,Books,Education,22.97
+P0508,Language Workbook Flex,Books,Education,32.77
+P0509,Language Workbook Lite,Books,Education,51.44
+P0510,Language Workbook Ultra,Books,Education,31.59
+P0511,Children's Story,Books,Fiction,39.99
+P0512,Children's Story Pro,Books,Fiction,46.97
+P0513,Children's Story Plus,Books,Fiction,50.89
+P0514,Children's Story Max,Books,Fiction,14.41
+P0515,Children's Story Mini,Books,Fiction,28.82
+P0516,Children's Story Prime,Books,Fiction,45.40
+P0517,Children's Story Edge,Books,Fiction,17.65
+P0518,Children's Story Flex,Books,Fiction,54.83
+P0519,Children's Story Lite,Books,Fiction,43.52
+P0520,Children's Story Ultra,Books,Fiction,69.58
+P0521,Travel Guide,Books,Non-Fiction,16.89
+P0522,Travel Guide Pro,Books,Non-Fiction,32.42
+P0523,Travel Guide Plus,Books,Non-Fiction,50.50
+P0524,Travel Guide Max,Books,Non-Fiction,24.40
+P0525,Travel Guide Mini,Books,Non-Fiction,53.84
+P0526,Travel Guide Prime,Books,Non-Fiction,45.83
+P0527,Travel Guide Edge,Books,Non-Fiction,20.08
+P0528,Travel Guide Flex,Books,Non-Fiction,50.77
+P0529,Travel Guide Lite,Books,Non-Fiction,43.51
+P0530,Travel Guide Ultra,Books,Non-Fiction,65.65
+P0531,Study Planner,Books,Stationery,59.64
+P0532,Study Planner Pro,Books,Stationery,27.82
+P0533,Study Planner Plus,Books,Stationery,57.40
+P0534,Study Planner Max,Books,Stationery,61.88
+P0535,Study Planner Mini,Books,Stationery,45.79
+P0536,Study Planner Prime,Books,Stationery,34.80
+P0537,Study Planner Edge,Books,Stationery,58.35
+P0538,Study Planner Flex,Books,Stationery,63.85
+P0539,Study Planner Lite,Books,Stationery,48.45
+P0540, study planner ultra ,Books,Stationery,52.17
+P0541,Poetry Collection,Books,Fiction,63.11
+P0542,Poetry Collection Pro,Books,Fiction,53.44
+P0543,Poetry Collection Plus,Books,Fiction,39.67
+P0544,Poetry Collection Max,Books,Fiction,9.05
+P0545,Poetry Collection Mini,Books,Fiction,28.26
+P0546,Poetry Collection Prime,Books,Fiction,89.32
+P0547,Poetry Collection Edge,Books,Fiction,11.53
+P0548,Poetry Collection Flex,Books,Fiction,30.07
+P0549,Poetry Collection Lite,Books,Fiction,64.45
+P0550,Poetry Collection Ultra,Books,Fiction,70.84
+P0551,Coding Manual,Books,Education,30.39
+P0552,Coding Manual Pro,Books,Education,55.92
+P0553,Coding Manual Plus,Books,Education,59.89
+P0554,Coding Manual Max,Books,Education,32.31
+P0555,Coding Manual Mini,Books,Education,42.51
+P0556,Coding Manual Prime,Books,Education,33.21
+P0557,Coding Manual Edge,Books,Education,46.99
+P0558,Coding Manual Flex,Books,Education,15.87
+P0559,Coding Manual Lite,Books,Education,59.22
+P0560,Coding Manual Ultra,Books,Education,55.60
+P0561,Novel Anthology,Books,Fiction,45.41
+P0562,Novel Anthology Pro,Books,Fiction,22.43
+P0563,Novel Anthology Plus,Books,Fiction,56.88
+P0564, novel anthology max ,Books,Fiction,16.29
+P0565,Novel Anthology Mini,Books,Fiction,63.46
+P0566,Novel Anthology Prime,Books,Fiction,44.95
+P0567,Novel Anthology Edge,Books,Fiction,44.30
+P0568,Novel Anthology Flex,Books,Fiction,16.66
+P0569,Novel Anthology Lite,Books,Fiction,15.50
+P0570,Novel Anthology Ultra,Books,Fiction,59.89
+P0571,Art Workbook,Books,Education,41.99
+P0572,Art Workbook Pro,Books,Education,15.16
+P0573,Art Workbook Plus,Books,Education,37.41
+P0574,Art Workbook Max,Books,Education,45.03
+P0575,Art Workbook Mini,Books,Education,30.09
+P0576,Art Workbook Prime,Books,Education,26.09
+P0577,Art Workbook Edge,Books,Education,63.22
+P0578,Art Workbook Flex,Books,Education,62.16
+P0579,Art Workbook Lite,Books,Education,46.27
+P0580,Art Workbook Ultra,Books,Education,27.38
+P0581,Business Handbook,Books,Non-Fiction,33.04
+P0582,Business Handbook Pro,Books,Non-Fiction,69.41
+P0583,Business Handbook Plus,Books,Non-Fiction,52.67
+P0584,Business Handbook Max,Books,Non-Fiction,54.99
+P0585,Business Handbook Mini,Books,Non-Fiction,30.47
+P0586,Business Handbook Prime,Books,Non-Fiction,55.86
+P0587, business handbook edge ,Books,Non-Fiction,48.13
+P0588,Business Handbook Flex,Books,Non-Fiction,34.04
+P0589,Business Handbook Lite,Books,Non-Fiction,58.03
+P0590,bUSINESS hANDBOOK uLTRA,Books,Non-Fiction,63.32
+P0591,Comic Collection,Books,Fiction,62.87
+P0592,Comic Collection Pro,Books,Fiction,55.62
+P0593,Comic Collection Plus,Books,Fiction,31.80
+P0594,Comic Collection Max,Books,Fiction,60.38
+P0595,Comic Collection Mini,Books,Fiction,59.51
+P0596,Comic Collection Prime,Books,Fiction,50.73
+P0597,Comic Collection Edge,Books,Fiction,18.25
+P0598,Comic Collection Flex,Books,Fiction,58.98
+P0599,Comic Collection Lite,Books,Fiction,30.40
+P0600,Comic Collection Ultra,Books,Fiction,22.95
