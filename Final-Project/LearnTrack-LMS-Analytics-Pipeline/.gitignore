@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment
+.env
+.envrc
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Bytecode
+*.class
+
+# Generated pipeline data
+data/bronze/
+data/silver/
+data/gold/
+data/scd/
+
+# Notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# Delta
+delta/
+
+# System
+.DS_Store
+Thumbs.db

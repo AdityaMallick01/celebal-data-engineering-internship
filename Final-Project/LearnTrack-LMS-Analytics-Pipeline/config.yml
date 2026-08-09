@@ -1,0 +1,33 @@
+# Configurable paths and thresholds for LearnTrack pipeline
+
+paths:
+  raw_dir: data/raw
+  bronze_dir: data/bronze
+  silver_dir: data/silver
+  gold_dir: data/gold
+  scd_dir: data/scd
+  temp_dir: dbfs:/tmp/learntrack
+
+thresholds:
+  completion_high: 0.8
+  completion_moderate: 0.6
+  inactivity_days: 14
+  pass_score: 50.0
+
+files:
+  learners: learners.csv
+  courses: courses.csv
+  enrolment_activity: enrolment_activity.csv
+
+spark:
+  app_name: LearnTrackPipeline
+  master: local[*]
+
+profiles:
+  databricks:
+    paths:
+      raw_dir: /Volumes/workspace/default/learntrack_lms
+      bronze_dir: /Volumes/workspace/default/learntrack_lms/bronze
+      silver_dir: /Volumes/workspace/default/learntrack_lms/silver
+      gold_dir: /Volumes/workspace/default/learntrack_lms/gold
+      scd_dir: /Volumes/workspace/default/learntrack_lms/scd

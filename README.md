@@ -47,6 +47,9 @@ celebal-data-engineering-internship/
 │
 ├── Week-08-ECommerce-Order-Analytics/
 │
+├── Final-Project/
+│   └── LearnTrack-LMS-Analytics-Pipeline/
+│
 └── README.md
 ```
 
@@ -183,6 +186,33 @@ celebal-data-engineering-internship/
 
 ---
 
+### Final Project – LearnTrack LMS Analytics Pipeline
+
+A production-style learning analytics pipeline built using **PySpark, Delta Lake, and Databricks Serverless**.
+
+#### Key Components
+
+- Medallion architecture: Bronze → Silver → Gold
+- Raw CSV ingestion into Delta Lake Bronze layer
+- Data quality validation and duplicate detection
+- Silver-layer cleaning, enrichment, and instructor-name resolution
+- Learning duration and latest-enrolment calculations
+- SCD Type 2 instructor history tracking
+- Gold-layer business analytics:
+  - Course completion analysis
+  - Learner engagement analysis
+  - Instructor performance
+  - Assessment performance
+  - Dropout detection
+  - Re-enrolment detection
+- PySpark window functions and aggregations
+- Delta Lake tables stored in Unity Catalog Volumes
+- Databricks Serverless pipeline orchestration
+- SQL analytics queries
+- Automated validation and test cases
+
+---
+
 ## Technologies Used
 
 - Python
@@ -200,6 +230,8 @@ celebal-data-engineering-internship/
 - Azure Data Factory (ADF)
 - Azure IAM (RBAC)
 - Databricks
+- PyYAML
+- Unity Catalog Volumes
 - MySQL Workbench
 - Jupyter Notebook
 - Visual Studio Code
